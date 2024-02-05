@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Dashboard Container -->
+    <section id="dashboard-container">
+      <div id="dashboard-header">
+        <div id="db-left">
+          <h1 id="db-left-title">Social Media Dashboard</h1>
+          <p id="db-total-followers">Total Followers: 23,004</p>
+        </div>
+        <hr id="mobile-line" />
+        <div id="db-right">
+          <p id="mode">Dark Mode</p>
+          <label id="switch">
+            <input type="checkbox" />
+            <span id="slider" class="slider-round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div id="dashboard-main">
+        <div class="card" id="facebook-card">
+          <div class="card-header">
+            <picture
+              ><img src="images/icon-facebook.svg" alt="icon-facebook"
+            /></picture>
+            <p class="acc-handle">@nathanf</p>
+          </div>
+          <h1 class="followers-num">1987</h1>
+          <p class="followers-type">Followers</p>
+          <div class="card-footer">
+            <picture><img src="images/icon-up.svg" alt="" /></picture>
+            <p class="followers-amount">12 Today</p>
+          </div>
+        </div>
+
+        <div class="card" id="twitter-card">
+          <div class="card-header">
+            <picture
+              ><img src="images/icon-twitter.svg" alt="icon-twitter"
+            /></picture>
+            <p class="acc-handle">@nathanf</p>
+          </div>
+          <h1 class="followers-num">1044</h1>
+          <p class="followers-type">Followers</p>
+          <div class="card-footer">
+            <picture><img src="images/icon-up.svg" alt="" /></picture>
+            <p class="followers-amount">99 Today</p>
+          </div>
+        </div>
+
+        <div class="card" id="instagram-card">
+          <div class="card-header">
+            <picture
+              ><img src="images/icon-instagram.svg" alt="icon-instagram"
+            /></picture>
+            <p class="acc-handle">@realnathanf</p>
+          </div>
+          <h1 class="followers-num">11k</h1>
+          <p class="followers-type">Followers</p>
+          <div class="card-footer">
+            <picture><img src="images/icon-up.svg" alt="" /></picture>
+            <p class="followers-amount">1099 Today</p>
+          </div>
+        </div>
+
+        <div class="card" id="youtube-card">
+          <div class="card-header">
+            <picture
+              ><img src="images/icon-youtube.svg" alt="icon-youtube"
+            /></picture>
+            <p class="acc-handle">Nathan F.</p>
+          </div>
+          <h1 class="followers-num">8239</h1>
+          <p class="followers-type">Subscribers</p>
+          <div class="card-footer">
+            <picture><img src="images/icon-down.svg" alt="" /></picture>
+            <p class="followers-amount" id="followers-decrease">144 Today</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Overview Container -->
+    <section id="overview-container">
+      <div id="overview-header">
+        <h1 id="overview-title">Overview - Today</h1>
+      </div>
+
+      <div id="overview-main">
+        <div class="overview-card">
+          <div class="overview-card-header">
+            <p class="o-c-h-title">Page Views</p>
+            <picture
+              ><img src="images/icon-facebook.svg" alt="icon-facebook"
+            /></picture>
+          </div>
+          <div class="overview-card-footer">
+            <h1 class="overview-num">87</h1>
+            <div class="percentage-container">
+              <picture><img src="images/icon-up.svg" alt="icon-up" /></picture>
+              <p class="overview-percentage">3%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-card-header">
+            <p class="o-c-h-title">Likes</p>
+            <picture
+              ><img src="images/icon-facebook.svg" alt="icon-facebook"
+            /></picture>
+          </div>
+          <div class="overview-card-footer">
+            <h1 class="overview-num">52</h1>
+            <div class="percentage-container">
+              <picture
+                ><img src="images/icon-down.svg" alt="icon-down"
+              /></picture>
+              <p class="overview-percentage" id="percentage-decrease">2%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-card-header">
+            <p class="o-c-h-title">Likes</p>
+            <picture
+              ><img src="images/icon-instagram.svg" alt="icon-instagram"
+            /></picture>
+          </div>
+          <div class="overview-card-footer">
+            <h1 class="overview-num">5462</h1>
+            <div class="percentage-container">
+              <picture><img src="images/icon-up.svg" alt="icon-up" /></picture>
+              <p class="overview-percentage">2257%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-card-header">
+            <p class="o-c-h-title">Profile Views</p>
+            <picture
+              ><img src="images/icon-instagram.svg" alt="icon-instagram"
+            /></picture>
+          </div>
+          <div class="overview-card-footer">
+            <h1 class="overview-num">52k</h1>
+            <div class="percentage-container">
+              <picture><img src="images/icon-up.svg" alt="icon-up" /></picture>
+              <p class="overview-percentage">1375%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-card-header">
+            <p class="o-c-h-title">Retweets</p>
+            <picture
+              ><img src="images/icon-twitter.svg" alt="icon-twitter"
+            /></picture>
+          </div>
+          <div class="overview-card-footer">
+            <h1 class="overview-num">117</h1>
+            <div class="percentage-container">
+              <picture><img src="images/icon-up.svg" alt="icon-up" /></picture>
+              <p class="overview-percentage">303%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-card-header">
+            <p class="o-c-h-title">Likes</p>
+            <picture
+              ><img src="images/icon-twitter.svg" alt="icon-twitter"
+            /></picture>
+          </div>
+          <div class="overview-card-footer">
+            <h1 class="overview-num">507</h1>
+            <div class="percentage-container">
+              <picture><img src="images/icon-up.svg" alt="icon-up" /></picture>
+              <p class="overview-percentage">553%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-card-header">
+            <p class="o-c-h-title">Likes</p>
+            <picture
+              ><img src="images/icon-youtube.svg" alt="icon-youtube"
+            /></picture>
+          </div>
+          <div class="overview-card-footer">
+            <h1 class="overview-num">107</h1>
+            <div class="percentage-container">
+              <picture
+                ><img src="images/icon-down.svg" alt="icon-down"
+              /></picture>
+              <p class="overview-percentage" id="percentage-decrease">19%</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="overview-card">
+          <div class="overview-card-header">
+            <p class="o-c-h-title">Total Views</p>
+            <picture
+              ><img src="images/icon-youtube.svg" alt="icon-youtube"
+            /></picture>
+          </div>
+          <div class="overview-card-footer">
+            <h1 class="overview-num">1407</h1>
+            <div class="percentage-container">
+              <picture
+                ><img src="images/icon-down.svg" alt="icon-down"
+              /></picture>
+              <p class="overview-percentage" id="percentage-decrease">12%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
